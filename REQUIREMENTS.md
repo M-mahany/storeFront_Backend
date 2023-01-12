@@ -8,29 +8,29 @@ These are the notes from a meeting with the frontend developer that describe wha
 
 #### Products
 
-- Index [GET](/products)
-- Show BY ID [GET](/products/:productid)
-- Create [POST](/users/:userid/products) [TOKEN REQUIRED]
-- DELETE [DELETE] (/users/:userid/products/:productid)
-- UPDATEH [PUT] (/users/:userid/products)
+- Index [GET]`(/products)`
+- Show BY ID [GET]`(/products/:productid)`
+- Create [POST]`(/users/:userid/products)`
+- DELETE [DELETE] `(/users/:userid/products/:productid)`
+- UPDATE [PUT] `(/users/:userid/products)`
 
 #### Users
 
-- Index [GET](/users)
-- Show BY ID [GET](/users/:userid)
-- Create N [POST] (/auth/register)
-- LOGIN [GET](auth/login)
-- DELETE USER [DELETE] (/users/:userid)
-- UPDATE USER PASSWORD [PUT] (/users/)
+- Index [GET]`(/users)`
+- Show BY ID [GET]`(/users/:userid)`
+- Create N [POST] `(/auth/register)`
+- LOGIN [GET]`(auth/login)`
+- DELETE USER [DELETE] `(/users/:userid)`
+- UPDATE USER PASSWORD [PUT] `(/users/)`
 
 #### Orders
 
-- SHOW ALL ORDERS [GET] (/orders)
-- GET ORDERS BY ID [GET] (/users/:userid/orders)
-- DELETE ORDER [DELETE](/users/:userid/orders/:orderid)
-- CREATE NEW ORDER [POST](/users/:userid/orders")
-- UPDATE ORDER STATUS [PUT](/users/:userid/orders/:orderid)
-- ADD PRODUCTS TO ORDERS [POST](/users/:userid/orders/:orderid)
+- SHOW ALL ORDERS [GET] `(/orders)`
+- GET ORDERS BY ID [GET] `(/users/:userid/orders)`
+- DELETE ORDER [DELETE]`(/users/:userid/orders/:orderid)`
+- CREATE NEW ORDER [POST]`(/users/:userid/orders")`
+- UPDATE ORDER STATUS [PUT]`(/users/:userid/orders/:orderid)`
+- ADD PRODUCTS TO ORDERS [POST]`(/users/:userid/orders/:orderid)`
 
 ## Data Shapes
 
